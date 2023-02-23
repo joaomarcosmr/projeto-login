@@ -23,14 +23,15 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     background-color: white;
     width: 260px;
     height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+
     transition: width .5s, height .5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 div#imagem-predio{
@@ -82,10 +83,11 @@ div.campo > input{
     background-color: rgb(15, 187, 187);
     font-size: 1em;
     width: calc(100% - 45px);
-    transform: translate(1px, -11.3px);
     border: none;
     height: 100%;
     border-radius: 10px;
+
+    transform: translate(1px, -11.3px);
 }
 
 div.campo > input:focus-within{
