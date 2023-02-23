@@ -7,7 +7,7 @@
 
     section#login{
         width: 80vw;
-        height: 350px;
+        height: 300px;
     }
     section#login > div#imagem-predio{
         float: left;
@@ -27,16 +27,18 @@
     * > body{
         background-image: linear-gradient(to bottom, #5F2C82, #4A9E9C);
     }
+    
     section#login{
         width: 992px;
-        height: 350px;
+        height: 320px;
     }
+
     section#login > div#imagem-predio{
         float: right;
         width: 50%;
         height: 100%;
-        border-top-right-radius: 0px;
-        border-bottom-left-radius: 20px;
+        border-top-left-radius: 0px;
+        border-bottom-right-radius: 20px;
     }
 
     section#login > div#formulario{
